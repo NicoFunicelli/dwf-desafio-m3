@@ -1,0 +1,487 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  footer{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .section-uno {
+    height: 620px;
+    width: 100%;
+    background-image: url(./img/puntitos.png);
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .section-uno {
+      background-image: url(./img/puntitos\ 769.png);
+    }
+  }
+  
+  .header {
+    height: 90px;
+    width: 100%;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .header {
+      height: 181px;
+    }
+  }
+  
+  .contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-header {
+      padding: 36px 104px 36px 80px;
+    }
+  }
+  
+  .logo-header {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .logo-header {
+      height: 120px;
+      width: 100px;
+    }
+  }
+  
+  .menu-hamburguesa {
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .menu-hamburguesa {
+      display: none;
+    }
+  }
+  
+  .nav {
+    display: none;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      width: 428px;
+      height: auto;
+    }
+  }
+  
+  .nav-menu {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .contenedor-section-uno {
+    height: 455px;
+    padding: 76px 26px 0 26px;
+    justify-content: center;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-section-uno {
+      height: 396px;
+      display: flex;
+      justify-content: space-between;
+      padding: 43px 84px 0 84px;
+    }
+  }
+  
+  .titulo-section-uno {
+    font-family: open Sans, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: auto;
+    width: 291px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-section-uno {
+      text-align: left;
+      margin: 79px auto auto 0;
+      width: 291px;
+    }
+  }
+  
+  .foto-personal {
+    margin: 58px auto 0 auto;
+    height: 300px;
+    width: auto;
+    display: block;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .foto-personal {
+      margin: 0 0 0 0;
+      height: 397px;
+    }
+  }
+  
+  .contenedor-section-dos {
+    background-color: #141414;
+    padding: 55px 0 68px 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-section-dos {
+      padding: 132px 0 169px 0;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      gap: 90px;
+    }
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-y-texto-section-dos {
+      max-width: 532px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+  }
+  
+  .subtitulo {
+    font-family: Open Sans, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .titulo-section-dos {
+    color: #fafafa;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-section-dos {
+      text-align: left;
+    }
+  }
+  
+  .texto-section-dos {
+    margin: 41px 32px;
+    height: 193px;
+    width: auto;
+    color:  #fafafa;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .texto-section-dos {
+      margin: 0;
+      height: 165px;
+      width: 100%;
+    }
+  }
+  
+  .logo-chico {
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .logo-chico {
+      height: 211px;
+      width: 211px;
+      margin: 0;
+    }
+  }
+  
+  .contenedor-section-tres {
+    padding: 69.76px 0 66px 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-section-tres {
+      padding: 59px 0 108px 0;
+    }
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-section-tres {
+      font-family: Open Sans, 'Times New Roman', Times, serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -1px;
+      text-align: center;
+    }
+  }
+  
+  .contenedor-conjuntos-section-tres {
+    display: flex;
+    flex-direction: column;
+    gap: 108.99px;
+    padding: 56px 56px 0 56px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-conjuntos-section-tres {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 76px 85px 0 85px;
+    }
+  }
+  
+  .imagen-conjunto-section-tres {
+    display: block;
+    margin: auto;
+    width: 138px;
+    height: auto;
+  }
+  
+  .texto-conjunto-section-tres {
+    text-align: center;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .texto-conjunto-section-tres {
+      max-width: 262px;
+    }
+  }
+  
+  .contenedor-section-cuatro {
+    background-color: #000;
+    padding: 70px 20px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-section-cuatro {
+      display: flex;
+      justify-content: center;
+      gap: 77px;
+      padding: 116px 0 116px 0;
+    }
+  }
+  
+  .titulo-section-cuatro {
+    color: #fafafa;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-section-cuatro {
+      font-family: Open Sans, 'Times New Roman', Times, serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -1px;
+      text-align: right;
+    }
+  }
+  
+  .sub-subtitulo {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 19px auto 16px auto;
+  }
+  
+  .form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo-nombre {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fafafa;
+    margin: 36.42px 0 9px 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .titulo-nombre {
+      margin-top: 0;
+    }
+  }
+  
+  .nombre {
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px;
+  }
+  
+  .titulo-mail {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fafafa;
+    margin: 27px 0 9px 0;
+  }
+  
+  .mail {
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px;
+  }
+  
+  .conjunto-mensaje {
+    padding-bottom: 60px;
+  }
+  
+  .titulo-mensaje {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fafafa;
+    margin: 21px 0 9px 0;
+  }
+  
+  .mensaje {
+    box-sizing: border-box;
+    width: 335px;
+  }
+  
+  .boton-enviar {
+    width: 335px;
+    height: 45px;
+    background-color: #ffd953;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .contenedor-section-cinco {
+    padding: 53px 20px 113px 20px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .contenedor-section-cinco {
+      display: flex;
+      justify-content: space-between;
+      padding: 95px 215px 95px 80px;
+    }
+  }
+  
+  .logo-footer {
+    width: 54px;
+    height: 54;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .logo-footer {
+      width: 112px;
+      height: auto;
+    }
+  }
+  
+  .copy {
+    margin: 18px 0 0 0;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .copy {
+      margin: 10px 0 0 0;
+      text-align: center;
+    }
+  }
+  
+  .section-cinco {
+    background-color: #eeeeee;
+    background-image: url(./img/puntitos.png);
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .section-cinco {
+        background-image: url(./img/puntitos\ 769.png);
+    }
+  }
+  
+  .primer-bloque-section-cinco {
+    padding: 0 0 85px 0;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .primer-bloque-section-cinco {
+      padding: 0;
+    }
+  }
+  
+  .segundo-bloque-section-cinco {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  @media (min-width: 769px) and (orientation: landscape) {
+    .segundo-bloque-section-cinco {
+      gap: 35px;
+    }
+  }
+  
+  .redes-logo {
+    display: inline;
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .redes-nombre {
+    display: inline;
+    vertical-align: middle;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
